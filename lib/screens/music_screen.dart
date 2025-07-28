@@ -51,7 +51,7 @@ class _MusicScreenState extends State<MusicScreen> {
       FilePickerResult? result = await FilePicker.platform.pickFiles(
         type: FileType.audio,
         allowMultiple: true,
-        dialogTitle: 'Select audio files',
+        dialogTitle: 'اختر ملف الصوت ',
         initialDirectory: selectedDirectory,
       );
       if (result != null) {
